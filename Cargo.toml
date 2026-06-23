@@ -1,0 +1,16 @@
+[package]
+name = "tp4-graph-coloring"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "graph_coloring"
+path = "src/lib.rs"
+
+[[bin]]
+name = "coloring"
+path = "src/main.rs"
+
+[[bin]]
+name = "benchmark"
+path = "src/bin/benchmark.rs"

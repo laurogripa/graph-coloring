@@ -1,0 +1,17 @@
+/target/
+
+# LaTeX build artifacts
+/article/_minted/
+/article/*.aux
+/article/*.log
+/article/*.bbl
+/article/*.blg
+/article/*.out
+/article/*.pdf
+!/article/article.pdf
+/article/*.synctex.gz
+/article/*.fdb_latexmk
+/article/*.fls
+
+# macOS
+.DS_Store
